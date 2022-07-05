@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	"github.com/acharyasreej/vm-imgreg-operator-api/api/v1alpha1"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
@@ -59,7 +59,7 @@ func main() {
 	}
 }
 
-// Get a vm-operator-api client from the generated clientset
+// Get a vm-imgreg-operator-api client from the generated clientset
 func getVmopClient(config *rest.Config) (ctrlClient.Client, error) {
 	scheme := runtime.NewScheme()
 	_ = v1alpha1.AddToScheme(scheme)

@@ -1,8 +1,8 @@
-# vm-operator-api
+# vm-imgreg-operator-api
 
 ## Overview
 
-The vm-operator-api project provides the object model and generated client libraries
+The vm-imgreg-operator-api project provides the object model and generated client libraries
 for the VM Operator project, which is a part of vSphere's [Kubernetes](https://kubernetes.io)
 support.
 
@@ -17,7 +17,7 @@ back in the VirtualMachine CRD status which can be queried for essential state l
 
 ## Use cases
 
-The use cases of vm-operator-api are currently limited to 3rd party integrations with vSphere with Kubernetes.
+The use cases of vm-imgreg-operator-api are currently limited to 3rd party integrations with vSphere with Kubernetes.
 
 In vSphere with Kubernetes it is not currently possible to create new VirtualMachines using this API, but we
 hope to expand on this functionality over time.
@@ -30,11 +30,11 @@ More information [here](CONTRIBUTING.md)
 
 ## Getting Started
 
-Check out how to get started with vm-operator-api [here](GETTING-STARTED.md)
+Check out how to get started with vm-imgreg-operator-api [here](GETTING-STARTED.md)
 
 ## Roadmap
 
-Use of the vm-operator-api is currently only supported in vSphere with Kubernetes.
+Use of the vm-imgreg-operator-api is currently only supported in vSphere with Kubernetes.
 However the intention is to make it more widely available as a Kubernetes-native
 way of interacting with vSphere VMs.
 

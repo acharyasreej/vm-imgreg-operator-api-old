@@ -1,13 +1,13 @@
-module github.com/vmware-tanzu/vm-operator-api/hack/samples
+module github.com/acharyasreej/vm-imgreg-operator-api/hack/samples
 
 go 1.17
 
 // The generated client is not part of the release, so point to the local version that includes the generated code
-// Note also that vm-operator-api is not specified in require the samples automatically pull in the latest
-replace github.com/vmware-tanzu/vm-operator-api => ../../../vm-operator-api
+// Note also that vm-imgreg-operator-api is not specified in require the samples automatically pull in the latest
+replace github.com/acharyasreej/vm-imgreg-operator-api => ../../../vm-imgreg-operator-api
 
 require (
-	github.com/vmware-tanzu/vm-operator-api v0.0.0-00010101000000-000000000000
+	github.com/acharyasreej/vm-imgreg-operator-api v0.0.0-00010101000000-000000000000
 	k8s.io/apimachinery v0.23.5
 	k8s.io/client-go v0.23.5
 	sigs.k8s.io/controller-runtime v0.11.2

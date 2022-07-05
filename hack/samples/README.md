@@ -1,10 +1,10 @@
 # Sample Code
 
-Sample code demonstrating how to use the vm-operator-api in your project
+Sample code demonstrating how to use the vm-imgreg-operator-api in your project
 
 ## Prerequisites
 
-The sample code sets up a local Kubernetes cluster and populates it with vm-operator-api CRD types.
+The sample code sets up a local Kubernetes cluster and populates it with vm-imgreg-operator-api CRD types.
 In order to successfully run the samples, these types need to be generated with `make generate-manifests`
 in the project root. This is also done automatically if you run `make all` in the samples directory.
 
@@ -15,7 +15,7 @@ resources. It is both dynamic and opinionated and it's what you will likely use 
 using kubebuilder. Note that it doesn't provide a Watch function as watching resources is a capability
 inherent to a controller.
 
-Note that the scheme for the vm-operator-api needs to be explicitly added to the client
+Note that the scheme for the vm-imgreg-operator-api needs to be explicitly added to the client
 
 ## Build and run
 

@@ -1,14 +1,14 @@
-# Get Started with vm-operator-api
+# Get Started with vm-imgreg-operator-api
 
-This guide will walk you through the process of integrating vm-operator-api into your project
+This guide will walk you through the process of integrating vm-imgreg-operator-api into your project
 
 ## Prerequisites
 
-The vm-operator-api project currently requires a ESXi cluster in vSphere 7 with Kubernetes.
+The vm-imgreg-operator-api project currently requires a ESXi cluster in vSphere 7 with Kubernetes.
 
 What this means in functional terms is that you can manage workloads in a given Workload Namespace using a Kubernetes client connected directly to the an embedded Kubernetes API Server running in the vSphere cluster. With the correct privileges, you can create CRD objects in your vSphere cluster which are reconciled into vSphere objects - everything from a single VM (`VirtualMachine`) to a full virtualized Kubernetes Cluster (`TanzuKubernetesCluster`)
 
-The vm-operator-api APIs currently allow you to monitor VirtualMachine objects that exist in the target namespace and before long, it will also allow you to create and manage them.
+The vm-imgreg-operator-api APIs currently allow you to monitor VirtualMachine objects that exist in the target namespace and before long, it will also allow you to create and manage them.
 
 ## Step 1: Verify client access
 

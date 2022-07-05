@@ -1,4 +1,4 @@
-# vm-operator-api Maintainers
+# vm-imgreg-operator-api Maintainers
 
 ## Maintainers
 
